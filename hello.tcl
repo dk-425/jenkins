@@ -1,15 +1,6 @@
 #!/usr/bin/tclsh
 
-
-<<<<<<< Updated upstream
-puts "HALF ADDER WITHOUT GUI IN VIVADO AND WITH JENKINS"
-=======
-<<<<<<< HEAD
 puts "HALF ADDER WITHOUT GUI IN VIVADO AND AUTOMATION WITH JENKINS"
-=======
-puts "HALF ADDER WITHOUT GUI IN VIVADO AND WITH JENKINS"
->>>>>>> 8159881690f6693caaecf192e2d1f3078172c412
->>>>>>> Stashed changes
 
 set project_name "halfadder_tcl"
 
