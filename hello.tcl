@@ -1,7 +1,7 @@
 #!/usr/bin/tclsh
 
 
-puts "HALF ADDER WITHOUT GUI"
+puts "HALF ADDER WITHOUT GUI IN VIVADO"
 
 set project_name "halfadder_tcl"
 
