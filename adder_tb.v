@@ -23,6 +23,6 @@ b=1;
 $stop;
 end
 always @(a or b) begin
-    $display("%b + %b = %b with carry %b at time %t", a, b, s, c, $time);
+    $display("%b + %b = %b with carry %b at timeperiod %t", a, b, s, c, $time);
 end
 endmodule
