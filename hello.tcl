@@ -7,7 +7,7 @@ set project_name "halfadder_tcl"
 set source_file "adder1.v" 
 set testbench_file "adder_tb.v"
 
-create_project $project_name ./using_tcl/$project_name -part xc7z020clg484-1
+create_project $project_name ./using_tcl/$project_name -part xc7z020clg484-1 -force
 
 add_files -fileset sources_1 $source_file
 add_files -fileset sim_1 $testbench_file
