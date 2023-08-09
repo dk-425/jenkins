@@ -6,6 +6,7 @@ set project_name "halfadder_tcl"
 
 set source_file "adder1.v" 
 set testbench_file "adder_tb.v"
+set filename "filename.xdc"
 
 create_project $project_name ./using_tcl/$project_name -part xc7z020clg484-1 -force
 
@@ -35,7 +36,7 @@ synth_design -top adder1
 #launch_simulation -mode "post-synthesis" -type "functional"
 
 
-read_xdc $filename.xdc
+read_xdc $filename
 
 opt_design
 place_design
